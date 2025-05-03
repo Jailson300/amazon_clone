@@ -1,5 +1,5 @@
 body{
-    background-color: #c4c2bc;
+    background-color: #e2e7e6;
 }
 
 header{
@@ -95,12 +95,63 @@ header img{
     margin-bottom: 16px;
 }
 
-/**footer**/
+.shop-section1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-top: 15px;
+}
+
+.box2{
+    height: 220px;
+    width: 12%;
+    background-color: white;
+    padding: 20px 15px;
+    margin-top: 15px;
+}
+
+.box-img1{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.shop-section1 a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #007185;
+}
+
 footer{
     margin-top: 15px;
 }
 
 .foot-panel1{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel1-content{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.btn{
+    width: 10%;
+    background-color: #fae859;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.foot-panel2{
     background-color: #37475a;
     height: 50px;
     display: flex;
@@ -108,13 +159,13 @@ footer{
     align-items: center;
 }
 
-.foot-panel1 a{
+.foot-panel2 a{
     color: white;
     font-size: 0.85rem;
     text-decoration: none;
 }
 
-.foot-panel2{
+.foot-panel3{
     background-color: #222f3d;
     color: white;
     height: 300px;
@@ -123,17 +174,17 @@ footer{
 }
 
 ul{
-    margin-top: 20px;
+    margin: 20px;
 }
 
 ul a{
     display: block;
-    font: 0.85rem;
-    margin-top: 10px;
+    font: 14px;
+    margin-top: 8px;
     color: #dddddd;
 }
 
-.foot-panel3{
+.foot-panel4{
     background-color: #222f3d;
     color: white;
     border-top: 0.5px solid white;
@@ -144,21 +195,27 @@ ul a{
 }
 
 .logo {
-    background-image: url("amazon_logo.png");
+    background-image: url("amazon_logo.JPG");
     background-size: cover;
     height: 50px;
     width: 100px;
 }
 
-.foot-panel4{
+
+
+.foot-panel5{
     background-color: #0f1111;
     color: white;
     height: 80px;
-    font-size: 0.7rem;
+    font-size: 10px;
     text-align: center;
     padding: 10px;
 }
 
-.copyright,.pages{
+.pages{
     padding: 10px;
+}
+
+.copyright{
+    padding: 0;
 }
